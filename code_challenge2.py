@@ -1,5 +1,5 @@
-money = 1500
-print("Money =", money)
+money = int(input("Money="))
+
 
 print("1000 =", money // 1000)
 print("500 =", (money % 1000) // 500)
