@@ -13,26 +13,7 @@ isExpress = bool(input("Is your delivery a priority? (Yes/No) = ") == 'Yes')
 isInternational = bool(input("Is the destination international? (Yes/No)= ")=='Yes')
 
 
-
-if isFragile == True:
-	print('Fragile = Yes')
-else:
-	print('Fragile = No')
-	
-if isExpress == True:
-	print("Priority = Yes")
-else:
-	print('Priority = No')
-	
-if isInternational == True:
-	print("International Delivery = Yes")
-else:
-	print("International Delivery = No")
-	
-
-
 baseCost = (weight * 2.50) + (distance * 0.15)
-
 
 if weight <= 2.0 and distance <= 100 and not isExpress and not isInternational:
 	Total = 0.00
