@@ -1,10 +1,10 @@
-Age = int(input('Enter your Age ='))
-is_employed = bool(input('Are you currently employed? (True/False =)'))
+age = int(input('Enter your Age ='))
+is_employed = bool(input('Are you currently employed? (True/False) ='))
 credit_score = int(input('What is your credit score? ='))
 annual_income = float(input('What is your annual income? ='))
 has_collateral = bool(input('Do you have collateral? (True/False) ='))
 
-if Age >= 21 and is_employed == True:
+if age >= 21 and is_employed == True:
     print ('Accept')
     if credit_score >= 750: 
         print('You have a high credit score!')
